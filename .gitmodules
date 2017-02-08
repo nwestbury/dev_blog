@@ -1,3 +1,0 @@
-[submodule "ghost"]
-	path = ghost
-	url = git@github.com:TryGhost/Ghost.git
