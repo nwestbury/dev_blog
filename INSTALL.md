@@ -14,3 +14,6 @@ sudo ufw status verbose
 
 # install latest stable version of nodejs
 # install ghost
+# install cert-bot (see renewal script)
+# cp renew.sh to /etc/letsencrypt
+# crontab -e ::: 0 0 10 Feb,May,Aug,Nov * bash /etc/letsencrypt/renew.sh
