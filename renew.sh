@@ -4,7 +4,7 @@
 # chmod a+x certbot-auto
 # After running, certbot-auto certonly --standalone -d segfault.ml -d www.segfault.ml
 
-sudo forever stop index.js
+sudo forever stopall
 sudo service nginx stop
 
 certbot-auto renew --quiet --no-self-upgrade
